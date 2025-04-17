@@ -1,12 +1,38 @@
 .button {
-    background-color: #36374e;
-    color: white;
-    border: 1px solid white;
-    padding: 18px;
+    padding: 15px;
     font-size: 1.5rem;
+    border: 2px solid #1d1f2e;
+    border-radius: 10px;
+    background-color: white;
+    color: #1d1f2e;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 .button:hover {
-    background-color: #3d235f;
-  }
+    background-color: #1d1f2e;
+    color: pink;
+    transform: scale(1.05);
+}
+
+/* Special styling for operators */
+.button[data-operator="true"] {
+    background-color: #1d1f2e;
+    color: pink;
+}
+
+.button[data-operator="true"]:hover {
+    background-color: pink;
+    color: #1d1f2e;
+}
+
+/* Special styling for Clear and Equals */
+.button[data-special="true"] {
+    background-color: #ff9eaf;
+    font-weight: bold;
+}
+
+.button[data-special="true"]:hover {
+    background-color: #1d1f2e;
+    color: #ff9eaf;
+}

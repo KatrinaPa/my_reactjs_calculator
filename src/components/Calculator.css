@@ -1,14 +1,21 @@
 .calculator {
     width: 300px;
-    margin: 0 auto;
-    border: 2px solid #1d1f2e;
-    border-radius: 10px;
-    padding: 20px;
+    margin: 50px auto;
+    border: 3px solid #1d1f2e;
+    border-radius: 20px;
+    padding: 25px;
     background-color: pink;
+    box-shadow: 0 10px 20px rgba(29, 31, 46, 0.2);
+    transition: transform 0.2s;
+}
+
+.calculator:hover {
+    transform: translateY(-5px);
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 12px;
+    margin-top: 20px;
 }
