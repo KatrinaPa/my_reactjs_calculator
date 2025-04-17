@@ -21,7 +21,7 @@ This project marks the first step into building a real-world User Interface with
 - Hosted online: https://my-reactjs-calculator-w9b2.vercel.app/
 
 **[Try My Calculator Live on Vercel!](https://my-reactjs-calculator-w9b2.vercel.app/)**
-<img src="public/assets/images/calculator_screenshot.png" width="200">
+<img src="public/calculator_Screenshot.png" width="200">
 
 **Why eval() was not used**
 
