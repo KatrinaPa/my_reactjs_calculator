@@ -18,9 +18,12 @@ This project marks the first step into building a real-world User Interface with
 - Custom styling using CSS modules
 - Custom logic for safe and accurate expression evaluation without relying on eval()
 - Prevents invalid expressions like multiple operators in a row (e.g., `++`, `*-`)
-- !!!!!!!!!!!! Hosted online (URL provided in my_reactjs_calculator_url.txt)
+- Hosted online: https://my-reactjs-calculator-w9b2.vercel.app/
 
-### Why eval() was not used
+**[Try My Calculator Live on Vercel!](https://my-reactjs-calculator-w9b2.vercel.app/)**
+<img src="public/assets/images/calculator_screenshot.png" width="200">
+
+**Why eval() was not used**
 
 Initially, I considered using eval() to evaluate the math expression because it's simple and built-in. However, I decided against it because:
 
@@ -32,17 +35,19 @@ Initially, I considered using eval() to evaluate the math expression because it'
 
 To set up this project locally, follow these steps:
 
-bash
+```bash
 git clone <repository_url>
 cd my-react-calculator
 npm install
+```
 
 ## Usage
 
 To run the calculator:
 
-bash
+```bash
 npm run dev
+```
 
 This will launch the calculator app in your default browser. You can click on the buttons to form an expression and press = to get the result.
 
