@@ -1,12 +1,56 @@
-# React + Vite
+# Welcome to My Reactjs Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Task
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In this quest, the challenge was to create a simple calculator web application using ReactJS that supports:
 
-## Expanding the ESLint configuration
+- Basic arithmetic operations: `+`, `-`, `*`, `/`
+- A user-friendly interface to input expressions and view results
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Description
+
+This project marks the first step into building a real-world User Interface with React. The calculator is a single-route ReactJS application built using React functional components and hooks (useState). It demonstrates the following:
+
+- Component structure (Calculator, Display, Button)
+- State management using useState
+- Custom styling using CSS modules
+- Custom logic for safe and accurate expression evaluation without relying on eval()
+- Prevents invalid expressions like multiple operators in a row (e.g., `++`, `*-`)
+- !!!!!!!!!!!! Hosted online (URL provided in my_reactjs_calculator_url.txt)
+
+### Why eval() was not used
+
+Initially, I considered using eval() to evaluate the math expression because it's simple and built-in. However, I decided against it because:
+
+- It's unsafe – it can execute arbitrary or harmful code,
+- It's considered bad practice in JavaScript projects.
+  Instead, I implemented a custom calculate(expression) function that safely parses and evaluates the input step-by-step using operator precedence.
+
+## Installation
+
+To set up this project locally, follow these steps:
+
+bash
+git clone <repository_url>
+cd my-react-calculator
+npm install
+
+## Usage
+
+To run the calculator:
+
+bash
+npm run dev
+
+This will launch the calculator app in your default browser. You can click on the buttons to form an expression and press = to get the result.
+
+### The Core Team
+
+Author:
+Katrina Pastore Ozolina
+Qwasar Project: My Reactjs Calculator
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
