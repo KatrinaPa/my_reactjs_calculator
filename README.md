@@ -22,7 +22,7 @@ This project marks the first step into building a real-world User Interface with
 
 **[Try My Calculator Live on Vercel!](https://my-reactjs-calculator-w9b2.vercel.app/)**
 
-[![Calculator Screenshot](public/calculator_Screenshot.png)](https://my-reactjs-calculator-w9b2.vercel.app/)
+[<img src="public/calculator_Screenshot.png" width="200">](https://my-reactjs-calculator-w9b2.vercel.app/)
 
 **Why eval() was not used**
 
